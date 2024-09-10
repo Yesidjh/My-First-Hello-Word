@@ -22,7 +22,8 @@ public class Program
         {
             mayor = numero1;
             if (numero2 >= numero3)
-            { delmedio = numero2;
+            {
+                delmedio = numero2;
                 menor = numero3;
             }
             else
@@ -33,7 +34,8 @@ public class Program
 
             }
 
-        } else if (numero2 >= numero1 && numero2 >= numero3)
+        }
+        else if (numero2 >= numero1 && numero2 >= numero3)
         {
             mayor = numero2;
             if (numero1 >= numero3)
@@ -67,8 +69,13 @@ public class Program
         Console.WriteLine($"El número mayor es: {mayor}");
         Console.WriteLine($"El número del medio es: {delmedio}");
         Console.WriteLine($"El número menor es: {menor}");
-
     }
+}
+
+
+    
+
+    
     
 
 
